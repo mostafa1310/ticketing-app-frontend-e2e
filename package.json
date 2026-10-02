@@ -5,7 +5,7 @@
   "type": "module",
   "description": "End-to-end tests (Playwright) for the Matchpass ticketing app in ../ticketing-app-frontend-monorepo.",
   "scripts": {
-    "build:app": "pnpm --dir ../ticketing-app-frontend-monorepo exec turbo run build --filter=matchpass-web --filter=mock-api",
+    "build:app": "pnpm --dir ../ticketing-app-frontend-monorepo exec turbo run build --filter=matchpass-web --filter=dashboard --filter=mock-api",
     "test": "playwright test",
     "test:full": "pnpm build:app && playwright test",
     "test:headed": "playwright test --headed",
