@@ -3,5 +3,4 @@ test-results
 playwright-report
 blob-report
 screenshots
-.env
 headed-run.log
