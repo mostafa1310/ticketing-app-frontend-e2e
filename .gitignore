@@ -4,3 +4,4 @@ playwright-report
 blob-report
 screenshots
 headed-run.log
+.env
